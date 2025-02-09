@@ -1,0 +1,289 @@
+    body {
+            background-image: url('/libro/Imagenes/fondo4.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;   
+        }
+         .question-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .question-container h2 {
+            color: #6a0dad;
+        }
+        .question-buttons button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        .yes-button {
+            background: #6a0dad;
+            color: white;
+        }
+        .yes-button:hover {
+            background: #5a0ca3;
+        }
+        .no-button {
+            background: #ccc;
+            color: black;
+        }
+        .no-button:hover {
+            background: #aaa;
+        }
+
+        #mensaje {
+            margin-top: 50px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .swiper-container {
+            width: 80%;
+            max-width: 600px;   
+        }
+        
+        .swiper-slide {
+           
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            width: 500px; 
+            height: 520px;
+            background: #D9CBEA; /* Fondo blanco semi-transparente */
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 0 10px;
+            position: relative; /* Para que el contenido esté sobre la imagen de fondo */
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: scale(1.01);
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+            
+        }
+        .card-1 {
+            background-image: url('https://i.pinimg.com/736x/6e/dd/46/6edd467f588c62642e6360a4056ae447.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        .card-2 {
+            background-image: url('/libro/Imagenes/2.png');
+            background-size: 300px 300px;
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-3 {
+            background-image: url('/libro/Imagenes/3.png');
+            background-size: 300px 300px;
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-4 {
+            background-image: url('/libro/Imagenes/4.png');
+            background-size: 400px 400px;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-5 {
+            background-image: url('/libro/2024-02-14_20.51.58.png');
+            background-position:center;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-6 {
+            background-image: url('/libro/Imagenes/5.png');
+            background-position:center;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-7 {
+            background-image: url('/libro/Imagenes/6.png');
+            background-position:bottom center;
+            background-size: 500px 600px;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-8 {
+            background-image: url('/libro/Imagenes/7.png');
+            background-position:bottom center;
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-9 {
+            background-image: url('/libro/Imagenes/8.png');
+            background-position:bottom center;
+            background-size: 300px 300px;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        .card-10 {
+            background-image: url('https://i.pinimg.com/736x/a8/56/f9/a856f9b5aca29250cc96d851886a15c9.jpg');
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 20px; /* Redondea la tarjeta */
+            background-clip: padding-box; /* Hace que el fondo respete el borde redondeado */
+            
+        }
+        h2 {
+            will-change: transform; 
+            font-weight: bold;
+            color: #8F3ECF;
+            -webkit-text-stroke: 0.5px black;
+           
+
+        }
+        p {
+            will-change: transform;
+            font-weight: bold;
+            color: #353535;
+            
+        }
+        .pequeno{
+            font-size: 20px;
+        }
+        .grande{
+            font-size: 14px;
+        }
+        img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        .floating-decor {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            filter: blur(15px);
+            animation: float 6s infinite alternate ease-in-out;
+        }
+        .decor-1 {
+            top: 10%;
+            left: 15%;
+        }
+        .decor-2 {
+            bottom: 10%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+        @keyframes float {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(30px);
+            }
+        }
+        .fade-out {
+            animation: fadeOut 1s forwards;
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s forwards;
+        }
+        
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .fade-out {
+            animation: fadeOut 1s forwards;
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s forwards;
+        }
+        
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
