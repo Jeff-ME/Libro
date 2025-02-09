@@ -1,5 +1,5 @@
     body {
-            background-image: url('fondo4.webp');
+            background-image: url("fondo4.webp");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -93,7 +93,7 @@
             color: white;
         }
         .card-2 {
-            background-image: url('2.png');
+            background-image: url("2.png");
             background-size: 300px 300px;
             background-position: bottom right;
             background-repeat: no-repeat;
@@ -102,7 +102,7 @@
             
         }
         .card-3 {
-            background-image: url('3.png');
+            background-image: url("3.png");
             background-size: 300px 300px;
             background-position: bottom left;
             background-repeat: no-repeat;
@@ -111,7 +111,7 @@
             
         }
         .card-4 {
-            background-image: url('4.png');
+            background-image: url("4.png");
             background-size: 400px 400px;
             background-position: bottom center;
             background-repeat: no-repeat;
@@ -120,7 +120,7 @@
             
         }
         .card-5 {
-            background-image: url('2024-02-14_20.51.58.png');
+            background-image: url("2024-02-14_20.51.58.png");
             background-position:center;
             background-repeat: no-repeat;
             border-radius: 20px; /* Redondea la tarjeta */
@@ -128,7 +128,7 @@
             
         }
         .card-6 {
-            background-image: url('5.png');
+            background-image: url("5.png");
             background-position:center;
             background-repeat: no-repeat;
             border-radius: 20px; /* Redondea la tarjeta */
@@ -136,7 +136,7 @@
             
         }
         .card-7 {
-            background-image: url('6.png');
+            background-image: url("6.png");
             background-position:bottom center;
             background-size: 500px 600px;
             background-repeat: no-repeat;
@@ -145,7 +145,7 @@
             
         }
         .card-8 {
-            background-image: url('7.png');
+            background-image: url("7.png");
             background-position:bottom center;
             background-size: 300px 300px;
             background-repeat: no-repeat;
@@ -154,7 +154,7 @@
             
         }
         .card-9 {
-            background-image: url('8.png');
+            background-image: url("8.png");
             background-position:bottom center;
             background-size: 300px 300px;
             background-repeat: no-repeat;
